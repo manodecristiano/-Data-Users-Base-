@@ -11,3 +11,7 @@
 import * as CRUD  from  './js/crud-provider.js';
 
 CRUD.getUsuario( 1 ).then( console.log );
+CRUD.crearUsuario( {
+    name: 'Frido',
+    job:'Lampista'
+}).then( console.log );
